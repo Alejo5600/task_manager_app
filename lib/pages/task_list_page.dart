@@ -108,7 +108,7 @@ class _TaskListPageState extends State<TaskListPage>
             builder: (context, constraints) {
               // Definir el número de columnas según el ancho de la pantalla
               final crossAxisCount = constraints.maxWidth > 800
-                  ? 3
+                  ? 2
                   : (constraints.maxWidth > 600 ? 2 : 1);
 
               return Container(
