@@ -1,16 +1,34 @@
-# task_manager_app
+# Task Manager App
 
-A new Flutter project.
+Esta es una aplicación Flutter para gestionar tareas. La app consume una API REST desarrollada en Laravel.
 
-## Getting Started
+## Requisitos
 
-This project is a starting point for a Flutter application.
+Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes programas en tu máquina:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter (versión 2.0 o superior)
+- Dart
+- Un emulador de Android/iOS o un dispositivo físico
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalación del Backend
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> **¡Advertencia!** Antes de ejecutar la aplicación Flutter, debes asegurarte de que el backend esté funcionando localmente. Sigue las instrucciones del backend para ponerlo en marcha. Puedes encontrar el repositorio del backend aquí: [Backend de Laravel](https://github.com/Alejo5600/task_manager_web)
+
+## Instalación de la Aplicación Flutter
+
+1. Clona el repositorio del app:
+    ```bash
+    git clone https://github.com/Alejo5600/task_manager_app.git
+    ```
+2. Navega al directorio de la aplicacion
+    ```bash
+    cd task_manager_app
+    ```
+3. Instala las dependencias de flutter:
+    ```bash
+    flutter pub get
+    ```
+4. Ejecuta la aplicacion: 
+    ```bash
+    flutter run
+    ```
