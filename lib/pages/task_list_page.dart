@@ -117,11 +117,7 @@ class _TaskListPageState extends State<TaskListPage>
                     .surface, // Color de fondo según el tema
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: crossAxisCount,
-                    childAspectRatio: crossAxisCount == 1
-                        ? 1.5
-                        : (crossAxisCount == 2 ? 1.3 : 1),
-                  ),
+                      crossAxisCount: crossAxisCount, childAspectRatio: 3),
                   itemCount: taskList.length,
                   itemBuilder: (context, index) {
                     final task = taskList[index];
